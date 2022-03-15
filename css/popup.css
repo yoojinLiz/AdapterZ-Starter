@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(171,190,216)
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons {
+    width: 80%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0% 3% 5% 0%;
+}
+
+ .first-row, .second-row {
+     width:100%;
+     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+    color: rgb(228,190,187)
+}
+.icon span{
+    font-size: 15%;
+    padding-top:2%;
+    color:rgb(212,185,199);
+    font-family: 'Gowun Batang', serif;
+    font-weight:600
+}

@@ -4,122 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/logo/favicon.png"/> 
     <link rel="apple-touch-icon" href="img/logo/favicon.png"/> 
+    <style>     
+ @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=East+Sea+Dokdo&family=Gowun+Batang:wght@400;700&family=Nanum+Brush+Script&family=Stylish&display=swap');
+    </style>
     <script src="https://kit.fontawesome.com/0d71430ac6.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <meta content="결과로서 과정을 증명하는 노력형 개발자의 셀프 소개 페이지입니다. 체키라웃 ! " name="description"/>
+    <meta property="og:image" content="img/og_image.png"/>
+    <title>결과로서 과정을 증명하는 개발자의 셀프 소개 </title>
 </head>
 <body>
 
 <header>
         <a class="header-logo" href="index.html"> Liz </a>
-        <a>Education</a>
-        <a>Certificates</a>
-        <a>Certification</a>
-        <a>Career</a>
+        <a href="#education-quote">Education</a>
+        <a href="#certification-quote">Certification</a>
+        <a href="#career-quote">Career</a>
+        <a>Project</a>
         <a>Q&A</a>
 </header>
 
 <main>
     <div class="introduction">
+            <h1 class="intro-word"> 결과로서 노력을 증명하는 개발자 <span class="introduction-full-name"> 오유진 </span> 입니다. </h1>
+            <img class="intro-img" src="img/picture.jpg">
+            <div class="intro-contacts">
+                <span> Contact : yj.oh.dev@gmail.com </span>
+                <span> Tech Blog : <a href="https://stay-present.tistory.com/" >https://stay-present.tistory.com/ </a></span>
+            </div>
+            <button class="intro-proposal"> 입사 제안 하러가기 <i class="fa-solid fa-arrow-right-long"></i> </button>
+     </div>
 
-        <div class="intro-contact">
-            <span>입사 제안하기</span>
-            <i class="fa-solid fa-envelope-open"></i>
-            <i class="fa-solid fa-mobile-button"></i>
+    <div class="education theme">
+        <div id="education-quote" class="education-quote quotes" > 
+            <i class="fa-solid fa-quote-left"></i>
+            컴퓨터 공학 전공은 아니지만 항상 성실히 공부했습니다. <br>
+              전공 지식은 노력해서 얻을 수 있지만 <span class="highlight">좋은 태도</span>는 노력해서 얻을 수 없습니다 
+           <i class="fa-solid fa-quote-right"></i>
         </div>
 
-        <div class="intro-main">
-            <div class="intro-main-img">
-                <img src="img/profile.jpeg">
-            </div>
-            <div class="intro-main-contents">
-                <h3> 오유진 </h3>
-                <span> E-mail : yj.oh.dev@gmail.com </span>
-                <span> Mobile : <!--+82 10-7742-3767 --> </span>
-                <span> Blog : <a href="https://stay-present.tistory.com/" ></a>https://stay-present.tistory.com/ </span>
-                <span class="intro-word"> 결과로서 노력을 증명하는 개발자입니다. </span>
-            </div>
+        <div class="education-content contents">
+            <div class="contents-title"> 학력 </div>
+             <div> <div class="dates"> 2013.03-2018.02 </div> 
+                   경희대학교 언론정보학과 수석 졸업 (4.4/4.5) </div>
+             <div> <div class="dates"> 2016.08-2016.12 </div> 
+                    미국 University of Akron 교환 학생 </div>
         </div>
-
-    </div>
-
-    <div class="education gray-box">
-        <div class="main-tag"> Education </div>
-        <div class="main-contents">
-                <div class="main-contents-icon"> <i class="fa-solid fa-graduation-cap"></i> </div>
-                <div class="main-contents-text">
-                    <span> 2013.03-2018.02  경희대학교 언론정보학과 수석 졸업 (4.4/4.5) </span>
-                    <span> 2016.08-2016.12  미국 University of Akron 교환 학생</span>
-                </div>
+        <div class="english-content contents">
+            <div class="contents-title"> 영어 </div>
+            <div> <div class="dates"> 2021.11. 10 ~ </div> 
+            OPIC - AL (최상위 등급)  </div>   
         </div>
-
-        
+        <div class="certificates-content contents"> 
+            <div class="contents-title"> 자격증 </div>
+            <div> <div class="dates"> 2021. 12. 17 ~ </div> 
+                SQL 개발자 </div>
+             <div> <div class="dates"> 2016. 07. 15 ~ </div> 
+                컴퓨터활용능력 1급 </div>
+            <div> <div class="dates"> 2016. 05. 31 ~ </div> 
+                사회조사분석사  2급 </div>
+        </div>
     </div>
-    <div class="certi gray-box">
-        <div class="main-tag"> Certificates </div>
-        <div class="main-contents">
-            <div class="main-contents-icon"><i class="fa-solid fa-certificate"></i></div>
-            <div class="main-contents-text">
-                <span>SQL 개발자 (2021. 12. 17 ~) </span>
-                <span>컴퓨터활용능력 1급 (2016. 07. 15 ~) </span>
-                <span>사회조사분석사  2급 (2016. 05. 31 ~) </span>
-                <span>OPIC - AL (2021.11. 10 ~)  </span>
-            </div>
-       </div>
+    
 
-       
-       
-       
-        
+    <div class="certification theme">
+        <div id="certification-quote" class="quotes certification-quote "> 
+            <i class="fa-solid fa-quote-left"></i>
+            컴퓨터 공학 기초 과목 이론부터 프로젝트 실습까지 <br>
+              <span class="highlight">신입 개발자로서 알아야 할 부분</span>에 대해 꼼꼼히 공부하고 있습니다. 
+           <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <div class="certification-content contents">
+            <h3 class="contents-title">HTML / CSS </h3> 
+                <div> opentutorials(생활코딩) web1 html</div>                
+                <div> opentutorials(생활코딩) web2 CSS</div>                
+                <div> 노마드코더 코코아톡 클론코딩 (챌린지 수료)</div>
+            <h3 class="contents-title">Javascript</h3>
+                <div> opentutorials (생활코딩) web2 javascript</div>                
+                <div> 노마드코더 Vanilla JS 클론코딩 </div>
+            <h3 class="contents-title">Computer Science </h3>
+                <div> KAIST - CS101 처음 배우는 프로그래밍 (python) - Boostcamp 제공</div>                
+                <div> Harvard - CS50 모두를 위한 컴퓨터 과학 - Boostcamp 제공</div>               
+                <div> 이산수학 - FastCampus 제공</div>
+            <h3 class="contents-title">Database </h3>
+                <div> opentutorials(생활코딩) 관계형 데이터 모델링 </div>                      
+          </div>
 
+    <div class="career theme">
+        <div id="career-quote" class="quotes career-quote "> 
+        <i class="fa-solid fa-quote-left"></i>
+            <span class="highlight">함께 일하고 싶은 동료</span>가 되는 법을 배웠습니다.
+        <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <div class="career-content contents">
+            <div> <div class="dates"> 2019.12-2022.03  </div> 
+            에어프레미아 IT 운영팀 / 매니저 </div>
+            <div> <div class="dates"> 2018.04-2019.12 </div> 
+            이스타항공 영업시스템지원팀 / 사원 </div>
+        </div>
     </div>
-    <div class="career gray-box">
-        <div class="main-tag"> Certification </div>
-            <div class="main-contents">
-            <div class="main-contents-icon"><i class="fa-solid fa-book-open"></i></div>
-            <div class="main-contents-text">
-                <h3 class="titles">HTML / CSS </h3 class="titles"> 
-                    <span>- opentutorials(생활코딩) web1 html</span>
-                    <span>- opentutorials(생활코딩) web2 CSS</span>
-                    <span>- 노마드코더 코코아톡 클론코딩 (챌린지 수료)</span>
-
-                <h3 class="titles">Javascript</h3 class="titles"> 
-                    <span>- opentutorials (생활코딩) web2 javascript</span>
-                    <span>- 노마드코더 Vanilla JS 클론코딩 </span>
-
-                <h3 class="titles">Computer Science </h3 class="titles"> 
-                    <span> - KAIST - CS101 처음 배우는 프로그래밍 (python) - Boostcamp 제공</span>
-                    <span> - Harvard - CS50 모두를 위한 컴퓨터 과학 - Boostcamp 제공</span>
-                    <span> - 이산수학 - FastCampus 제공</span>
-
-                <h3 class="titles">Database </h3 class="titles"> 
-                    <span> - opentutorials(생활코딩) 관계형 데이터 모델링 </span>                       
-                 </div>
-            </div>
-    </div>
-    <div class="Career gray-box">
-        <div class="main-tag"> Career </div>
-                    <div class="main-contents">
-                 <div class="main-contents-icon"><i class="fa-solid fa-plane"></i></div>
-                 <div class="main-contents-text">
-                    <span>2019.12-2022.03  에어프레미아 IT 운영팀 / 매니저 </span>
-                    <span>2018.04-2019.12  이스타항공 영업시스템지원팀 / 사원</span>
-                 </div>
-            </div>
-    </div>
-    <div class="qna gray-box">
-        <div class="main-tag">Q&A</div>
-                    <div class="main-contents">
-                 <div class="main-contents-icon"><i class="fa-solid fa-circle-question"></i></div>
-                 <div class="main-contents-text"></div>
-            </div>
-    </div> 
 
 </main>
 
-
-
+<script src="script.js"></script>
 </body>
 </html>
